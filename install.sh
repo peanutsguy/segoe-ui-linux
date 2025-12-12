@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Installing Segoe UI Font"
+
 DEST_DIR="/usr/share/fonts/Microsoft/TrueType/SegoeUI/"
 mkdir -p "$DEST_DIR"
 cp font/segoeui.ttf "$DEST_DIR"/segoeui.ttf > /dev/null 2>&1 # regular
